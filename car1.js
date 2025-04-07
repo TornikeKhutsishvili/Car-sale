@@ -1,4 +1,3 @@
-
 class Car{
     constructor(manufacturer,model,category,price,engine,year,mileage,transmission,
                 Fuel_Type,Wheel_main,locations,newimage,deletee,count){
