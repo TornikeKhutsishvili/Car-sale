@@ -1,0 +1,262 @@
+body{
+    background-color: #F2F3F6;
+}
+.from-group{
+    display: inline-block !important;
+    width: 241px !important;
+}
+.locationsdiv{
+    width: 487px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.locations{
+    width: 487px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+}
+.fromyears,
+.toyears,
+.fromprice,
+.toprice,
+.fromengine,
+.toengine,
+.frommileage,
+.tomileage{
+    width: 241px !important;
+    display: inline-block !important;
+}
+.maindiv2{
+    width: 650px;
+    text-align: center;
+}
+.maindiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btnsearch{
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    width: 487px;
+    height: 38px;
+    background-color: #FD4100 !important;
+    margin-top: 10px;
+}
+.fa-solid{
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.cardiv{
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cardiv2{
+    width: 815px;
+    height: 200px;
+    padding: 14px;
+    background-color: #fff;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+.carphoto{
+    border: 1px solid black;
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: -1vw 0;
+}
+.model_years{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    height: 20px;
+    width: 180px;
+
+    margin-left: 210px;
+    margin-top: -170px;
+}
+.engine{
+    height: 80px;
+    width: 200px;
+    margin-left: 215px;
+    margin-top: 25px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.enginesharp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gear{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.speed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whell{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+}
+.see{
+    height: 20px;
+    width: 250px;
+    margin-left: 210px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #8095BC;
+}
+.vipdiv{
+    border-radius: 45%;
+    background-color: red !important;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+}
+.km{
+    height: 80px;
+    width: 150px;
+    margin-left: 440px;
+    margin-top: -125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.border_price{
+    height: 20px;
+    width: 230px;
+    margin-left: 560px;
+    margin-top: -125px;
+    display: flex;
+    justify-content: space-around;
+}
+.h1red{
+    font-size: 13px;
+    color: red !important;
+}
+.h1dark{
+    font-size: 13px;
+    color: #A3BFDA !important;
+}
+.price{
+    height: 35px;
+    width: 130px;
+    margin-left: 660px;
+    margin-top: 25px;
+}
+.favourite{
+    height: 20px;
+    width: 130px;
+    margin-left: 660px;
+    margin-top: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.valut{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+    margin-left: -30px;
+}
+.wallut{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dollar,
+.lari{
+    border-radius: 50%;
+    width: 23px;
+    text-align: center;
+}
+.dollar{
+    color: #A3BFDA;
+    cursor: pointer;
+}
+.lari{
+    margin-left: 3px;
+    background-color: #A3BFDA;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cash{
+    width: 70px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whellh1,
+.speedh1,
+.gearh1,
+.enginesharph1{
+    font-size: 14px;
+    margin-top: 7px;
+}
+.select_input1,
+.select_input2,
+.select_input3{
+    width: 170px;
+    font-family: "Roboto", "sans-serif";
+    font-size: 16px;
+    z-index: 100;
+
+    display: none;
+    pointer-events: none;
+}
+.deldiv{
+    width: 80px;
+    height: 25px;
+    margin-top: -21px;
+    margin-left: 540px;
+}
+.dlt{
+    width: 80px;
+    height: 26px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: red;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+}
+.none{
+    display: none;
+}
